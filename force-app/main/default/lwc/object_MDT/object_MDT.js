@@ -50,6 +50,10 @@ export default class Object_MDT extends LightningElement {
     Type = 'Text';
     countId = 0;
 
+    constructor(){
+        console.log('CONSTRUCTOR HERE');
+    }
+
     connectedCallback(){
         console.log('jhbhjbh');
         var xount = 0;
